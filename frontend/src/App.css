@@ -40,3 +40,30 @@
 .read-the-docs {
   color: #888;
 }
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  text-align: center;
+}
+
+.face-detection {
+  margin-top: 2rem;
+}
+
+input[type="file"] {
+  margin: 1rem 0;
+}
