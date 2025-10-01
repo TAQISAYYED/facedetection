@@ -1,0 +1,20 @@
+# Core PyTorch packages (CUDA 11.8 build)
+torch==2.8.0+cu118
+torchvision==0.19.0+cu118
+torchaudio==2.8.0+cu118
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+# YOLOv8 and dependencies
+ultralytics==8.3.0
+
+# Computer vision + plotting
+opencv-python==4.10.0.84
+matplotlib==3.9.2
+numpy==2.1.1
+Pillow==10.4.0
+
+fastapi 
+uvicorn 
+opencv-python-headless 
+python-multipart 
+aiofiles
